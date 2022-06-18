@@ -1,0 +1,19 @@
+.footer-ct {
+    margin-bottom: 0px;
+    height: 120px;
+    /* background: #124944; */
+    background: rgb(19, 26, 34);
+    /* background: #6f7173; */
+width: 100vw;
+}
+.anchor-txt{
+    text-decoration: none;
+
+}
+
+
+@media screen and (max-width: 780px) {
+.footer-ct{
+    height: 100%;
+}
+}

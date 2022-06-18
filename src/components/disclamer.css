@@ -1,0 +1,50 @@
+.circle {
+
+  border-radius: 50%;
+  width: 50px;
+  height: 50px;
+  padding: 5px;
+ margin-right: 5px;
+
+  background: #c4c4c4;
+  color: #fff;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  font: 15px Arial, sans-serif;
+
+  border: 1px solid #c4c4c4;
+  ;
+}
+
+.disclamer-ct {
+  margin-bottom: 100px;
+}
+.dc-heading {
+  font-family: "Nunito Sans";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 22px;
+}
+
+.text-desc {
+  text-align: justify;
+  padding: 0px;
+
+  align-items: center;
+  justify-content: center;
+
+
+}
+
+@media screen and (max-width: 780px) {
+  .circle {
+    padding: 5px;
+  }
+}
+@media screen and (max-width: 480px) {
+  .circle {
+    padding: 5px;
+ 
+  }
+}

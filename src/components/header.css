@@ -1,0 +1,83 @@
+.header-bg{
+    /* background: #124944; */
+    background: rgb(15, 17, 17);
+    /* background:   #6f7173; */
+}
+.logo-img{
+    height: 60px;
+    position: relative;
+    margin-top: -15px;
+}
+.searchInput{
+    width: 80%;
+}
+.searchInpt {
+    width: 550px;
+    height: 35px;
+}
+.search-btn{
+ outline: none;
+ border: none;
+background: none;
+}
+.srch-icon{
+    margin-left: -1px;
+    margin-top: 1px;
+}
+input:focus{
+    outline: none;
+}
+
+.header-imagesx{
+    position: relative;
+}
+
+.counted-value{
+    position: relative;
+    margin-top: 18px;
+    margin-right: -52px;
+  
+}
+
+/*   media query */
+@media screen and (max-device-width: 780px){ 
+    .searchInpt {
+        width: 500px;
+        height: 35px;
+        display: block;
+        justify-content: center;
+      margin-left: 0%;
+    }
+    .inpt-box{
+        /* margin-top: -52px; */
+    }
+    .logo-img{
+        height: 40px;
+        position: relative;
+        margin-top: 0;
+    }
+}
+@media screen and (max-device-width: 480px){ 
+    .searchInpt {
+        /* width: 270px; */
+        width: 100%;
+        height: 35px;
+        display: block;
+        justify-content: center;
+      margin-left: 10%;
+     
+    }
+    .inpt-box{
+        margin-top: 0px;
+        margin-left: 8%;
+        /* margin-right: 3%; */
+    }
+    .logo-img{
+        height: 45px;
+        position: relative;
+        margin-top: 0;
+    }
+    .icon-group{
+        margin-left: 16px;
+    }
+}
