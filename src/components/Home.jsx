@@ -270,7 +270,7 @@ const Home = (showMoreItems, showMoreWishlistItem) => {
           ) : (
             <div className="row artcl-bg">
               <div className="col-12 col-md-8 col-lg-8 d-flex justify-content-start  ps-lg-3 ps-0 ">
-                <button className="cat-btn1 ms-1 pe-1">
+                <button className="cat-btn1 ms-1 pe-2">
                   <strong>Catagories</strong>
                 </button>
                 <div className="line-article"></div>
@@ -280,8 +280,8 @@ const Home = (showMoreItems, showMoreWishlistItem) => {
                     <button
                       className={
                         item.name === category
-                          ? " cat-btn pe-2 ps-1 active"
-                          : "cat-btn pe-2 ps-1"
+                          ? " cat-btn pe-2 ps-2 active"
+                          : "cat-btn pe-2 ps-2"
                       }
                       onClick={(e) => {
                         setCategory(e.target.innerText);
