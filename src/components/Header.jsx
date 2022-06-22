@@ -16,7 +16,7 @@ const  Header = ({x,handleWishlistData,showWishlist,getBack,search}) => {
         <div className="row header-bg py-2">
           <div className="col-12 col-md-12 col-lg-3 d-flex justify-content-lg-start justify-content-md-center  justify-content-center mt-3 mt-md-4 ">
             <img
-              src="/asset/images/logo_white.svg"
+              src="/asset/images/logo5.png"
               alt="logo"
               className="ps-3  logo-img"
             />

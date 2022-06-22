@@ -58,7 +58,7 @@ const Footer = () => {
         <div className="col-12 col-md-12 col-lg-12 d-flex justify-content-start justify-content-md-center justify-content-lg-center mb-0 ps-lg-0 ps-md-0 ps-4 mt-1">
           <div className="d-flex ps-3 justify-content-start ">
             <p className="text-white ">
-             &nbsp;www.asmadiya.com <span> | </span>©asmadiya-2020
+             &nbsp;www.example.com <span> | </span>©vivek-2022
             </p>
           </div>
         </div>

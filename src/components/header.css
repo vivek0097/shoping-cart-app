@@ -7,6 +7,7 @@
     height: 60px;
     position: relative;
     margin-top: -15px;
+    width: 150px;
 }
 .searchInput{
     width: 80%;
